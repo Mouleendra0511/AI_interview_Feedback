@@ -30,7 +30,7 @@ os.makedirs(AUDIO_FOLDER, exist_ok=True)
 
 # Configure Gemini API
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")  # Store your API key in environment variables
-genai.configure(api_key="AIzaSyD1uTUq20yZpLJAb0XJRoA_u3Qth-cD8qY")
+genai.configure(api_key="SET_YOUR_API_KEY")
 
 @app.route('/upload', methods=['POST'])
 def upload_video():
