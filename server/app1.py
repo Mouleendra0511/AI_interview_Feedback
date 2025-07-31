@@ -13,7 +13,7 @@ load_dotenv()
 
 api_key = os.getenv("GEMINI_API_KEY")
 if not api_key:
-    api_key = "AIzaSyB4Jef7M3d8O6hyYd89pRmgAVazzw5agoY"  # Fallback key
+    api_key = "SET_YOUR_OWN_KEY"  # Fallback key
 genai.configure(api_key=api_key)
 
 app = Flask(__name__)
